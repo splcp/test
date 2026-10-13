@@ -1,0 +1,10 @@
+# A06: Vulnerable and Outdated Components
+# Intentionally old versions with known CVEs, to trigger SCA / dependency scanners
+# (pip-audit, Snyk, Dependabot, OWASP Dependency-Check, Trivy).
+Flask==1.0.2
+Werkzeug==0.15.3
+Jinja2==2.10
+requests==2.19.1
+PyYAML==5.1
+lxml==4.6.2
+urllib3==1.24.1
